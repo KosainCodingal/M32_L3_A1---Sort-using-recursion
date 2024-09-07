@@ -3,6 +3,8 @@ def listSum(arr):
     if l == 1: return arr[0]
 
     return arr[0] + listSum(arr[1:])
+    ##
+    print()
 
 a = [1, 3, 6, 4]
 print(listSum(a))
